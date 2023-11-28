@@ -1,11 +1,16 @@
-package Fundamentos;
+package looping;
 
 public class exercicio07 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a = 3;
-		System.out.println(a% 2 == 0 ? ++a:a++);
+		
+		for (int i = 0; i <100; i++) {
+			if (i > 50 && i < 60) {
+				continue;
+			}
+			System.out.println(i);
+		}
 	}
 
 }

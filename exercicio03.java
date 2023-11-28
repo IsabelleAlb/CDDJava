@@ -1,17 +1,17 @@
-package Fundamentos;
+package looping;
 
 public class exercicio03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a = 10;
-		int b = -10;
-		boolean c = true;
-		boolean d = false;
-		System.out.println(~a);
-		System.out.println(~b);
-		System.out.println(!c);
-		System.out.println(!d);
+		int x = 0;
+		
+		while (x <= 100) {
+			
+			if (x % 2 == 0) {
+				System.out.print(x + " ");
+			}x++;
+		}
 	}
 
 }
